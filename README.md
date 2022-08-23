@@ -42,10 +42,15 @@ Options for visualization (by Pierre Markuse, [click here](https://pierre-markus
 - *Pan Band* - Monochrome B08 image
 
 `Stretch min` and `Stretch max` is responsible for adjusting the lightness of the resulting image. 
+
 With `Saturation` you could adjust the vividness of the image, if set to 0, the monochrome version will be resulted.
+
 `Fire sensitivity` defines the sensitivity of hot spot setection. If you want to visualize more hotspot areas increase the number (but be aware of false postives). 1 is default and tested to work rather "well".
+
 Next line allows user to `adjust` manually RGB visualization of the image. It's a "cheat" option to highlight something if you want to change the appearence of the image. You could add by defining positive values or substract by definine negative ones.
+
 By `cropping and visualization` the choice how to present the visualization on the map could be done: to clip to the polygon of interest or to show the full image.
+
 The final visualization parameters are `max` and `min`. It is Earth Engine visualization stretching. You could set the same values as in stretching above.
 
 ### To do list
