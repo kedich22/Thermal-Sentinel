@@ -59,6 +59,7 @@ The final visualization parameters are `max` and `min`. It is Earth Engine visua
 - [ ] Add image mosiacking to display larger areas
 - [ ] Add Burnscar visualization for burnfires
 - [ ] Make a version for burnfires
+- [ ] Add the information while selecting images about the cloud cover in the AOI
 
 
 
