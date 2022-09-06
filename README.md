@@ -57,7 +57,9 @@ The final visualization parameters are `max` and `min`. It is Earth Engine visua
 ## The second version of the application to highlight burnscars
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kedich22/Thermal-Sentinel/main?labpath=Burnscar_forfires_new.ipynb)
 
-The main difference with the previous version that this one is created nore to highlight burnfires. Added the visualization of burnscars. To set up the visualization change the parameter `Highlight` from 0. [Cick here](https://mybinder.org/v2/gh/kedich22/Thermal-Sentinel/main?labpath=Burnscar_forfires_new.ipynb) to launch the application
+The main difference with the previous version that this one is created nore to highlight burnfires. Added the visualization of burnscars. To set up the visualization change the parameter `Highlight` from 0.
+[Cick here](https://mybinder.org/v2/gh/kedich22/Thermal-Sentinel/main?labpath=Burnscar_forfires_new.ipynb) to launch the application
+
 And then in the section `Burnscar highlight` adjust the values:
 - `Thsd low` Burnscar detection threshold low
 - `Thsd high` Burnscar detection threshold high
