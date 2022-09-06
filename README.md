@@ -54,7 +54,7 @@ By `cropping and visualization` the choice how to present the visualization on t
 
 The final visualization parameters are `max` and `min`. It is Earth Engine visualization stretching. You could set the same values as in stretching above.
 
-### The second version of the file to highlight burnscars
+## The second version of the file to highlight burnscars
 
 The main difference with the previous version that this one is created nore to highlight burnfires. Added the visualization of burnscars. To set up the visualization change the parameter `Highlight` from 0.
 And then in the section `Burnscar highlight` adjust the values:
