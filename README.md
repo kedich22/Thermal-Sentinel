@@ -54,11 +54,22 @@ By `cropping and visualization` the choice how to present the visualization on t
 
 The final visualization parameters are `max` and `min`. It is Earth Engine visualization stretching. You could set the same values as in stretching above.
 
+### The second version of the file to highlight burnscars
+
+The main difference with the previous version that this one is created nore to highlight burnfires. Added the visualization of burnscars. To set up the visualization change the parameter `Highlight` from 0.
+And then in the section `Burnscar highlight` adjust the values:
+- `Thsd low` Burnscar detection threshold low
+- `Thsd high` Burnscar detection threshold high
+- `Desat back` Burnscar desaturate backdrop
+- `Darken back` Burnscar darken backdrop
+
+Also in this version the feature to make a mosaic from images on the same date is added to cover the larger area.
+
 ### To do list
 - [ ] Fix the moment with visualization of AOI polygon
-- [ ] Add image mosiacking to display larger areas
-- [ ] Add Burnscar visualization for burnfires
-- [ ] Make a version for burnfires
+- [x] Add image mosiacking to display larger areas
+- [x] Add Burnscar visualization for burnfires
+- [x] Make a version for burnfires
 - [ ] Add the information while selecting images about the cloud cover in the AOI
 
 
