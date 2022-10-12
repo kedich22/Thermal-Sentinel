@@ -1,5 +1,6 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kedich22/Thermal-Sentinel/main?labpath=Test%20burnscar.ipynb)
 # Tool for visualization of lava flows/burnfires/themral activity on the land surface
+## The more advanced version with burnfire visualization and exporting images is presented below, the link could be find at the bottom of this tutorial
 Enhanced visualization of thermal hotspots based on Sentinel-2 imagery
 
 ### How to use it?
