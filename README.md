@@ -54,10 +54,10 @@ By `cropping and visualization` the choice how to present the visualization on t
 
 The final visualization parameters are `max` and `min`. It is Earth Engine visualization stretching. You could set the same values as in stretching above.
 
-## The second version of the application to highlight burnscars
+## The second version of the application to highlight burnscars + function to export the final image
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kedich22/Thermal-Sentinel/main?labpath=Burnscar_forfires_new.ipynb)
 
-The main difference with the previous version that this one is created nore to highlight burnfires. Added the visualization of burnscars. To set up the visualization change the parameter `Highlight` from 0.
+The main difference with the previous version that this one is created nore to highlight burnfires. Added the visualization of burnscars. To set up the visualization change the parameter `Highlight` from 0. In addition in this version the export possibility is implemented.
 [Cick here](https://mybinder.org/v2/gh/kedich22/Thermal-Sentinel/main?labpath=Burnscar_forfires_new.ipynb) to launch the application
 
 And then in the section `Burnscar highlight` adjust the values:
@@ -67,7 +67,11 @@ And then in the section `Burnscar highlight` adjust the values:
 - `Darken back` Burnscar darken backdrop
 
 Also in this version the feature to make a mosaic from images on the same date is added to cover the larger area.
-
+This version also allows user to export the visualized image on the computer. The image is exported in tiff format, exported image contains three bands needed to provided visualization.
+Firstly, select the path where to save the file. The image cannot be directly be saved on ypur computer. Firstly, it will appear in the environment, where the all online application files are stored. You could keep the default provided path: after click `Change`. 
+In order to export the image after the path has been chosen click `Export image`. 
+The image will appear on the left panel: the you have to left click on it and at this step to choose where to save it on your local computer:
+![image](https://user-images.githubusercontent.com/70434411/195396364-aa5e0299-d02e-4fce-bd8a-071099a8e5c0.png)
 ### To do list
 - [ ] Fix the moment with visualization of AOI polygon
 - [x] Add image mosiacking to display larger areas
